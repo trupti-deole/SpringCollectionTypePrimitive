@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+  <bean id="b1" class="com.test.dependency.Student">
+	  <property name="rollno" value="101"></property>
+	  <property name="name" value="Ishi"></property>
+	  <property name="booklist" >
+		  <!--If we want to provide values inside the booklist-->
+		  <list>
+			  <value>C</value>
+			  <value>CPP</value>
+			  <value>Java</value>
+		  </list>
+	  </property>
+	  <property name="phno">
+		  <set>
+			  <value>45488956</value>
+			  <value>78784512</value>
+			  <value>12345678</value>
+		  </set>
+	  </property>
+	  <property name="courses">
+		  <map>
+			  <entry key="fullstackjava" value="30000" ></entry>
+			  <entry key="corejava" value="12000"></entry>
+			  <entry key="advjava" value="12000"></entry>
+		  </map>
+	  </property>
+  </bean>
+
+</beans>

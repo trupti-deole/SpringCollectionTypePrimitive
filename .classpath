@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/trupt/Downloads/springframework/springjarfiles/spring-aop-6.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trupt/Downloads/springframework/springjarfiles/spring-context-6.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trupt/Downloads/springframework/springjarfiles/spring-expression-6.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trupt/Downloads/springframework/springjarfiles/spring-beans-6.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trupt/Downloads/springframework/springjarfiles/spring-core-6.1.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trupt/Downloads/springframework/springjarfiles/spring-jcl-6.1.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
